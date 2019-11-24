@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.naslov{
+    font-size:75px;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: oblique;
+}
+.podnaslov{
+    font-size:30px;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    color: rgb(219, 103, 103);
+}
+.naslovna{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+.slika1{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slika2{
+    height: auto;
+    display: block;
+    position: absolute;
+    top:73%;
+    left:0%;
+    height:27%;
+    width:10%;
+    border-radius: 80%;
+}
+.navbar{
+    background-color: maroon;
+    color: white;
+    height:2.3em;
+    text-align: center;
+    padding:7px;
+
+}
+.navbar a{
+    padding: 7px;
+    text-size-adjust: 50px;
+    text-align: center;
+    background-color: maroon;
+    color: white;
+    font-size: 30px;
+    margin: 25px;
+    text-decoration: black ;
+}
+.navbar a:hover {
+    background-color: rgb(236, 37, 37);
+    color: rgb(255, 254, 254);
+  }
+.navbar a:visited {
+    color: rgb(255, 254, 254);
+  }
+
+#active2 {
+    background-color:rgb(236, 37, 37);
+}
+
+.naslovProizvodi {
+    text-decoration: solid;
+    text-align: center;
+}
