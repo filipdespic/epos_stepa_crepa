@@ -94,6 +94,15 @@ input:hover {
 .drugiDeo{
   text-align: center;
 }
+.error{
+  border-color: red;
+}
+.errorText{
+  display: none;
+
+  color: red;
+  font-size: 10px;
+}
 @media only screen and (max-width: 600px){
   header  ul{
     flex-wrap: wrap;
